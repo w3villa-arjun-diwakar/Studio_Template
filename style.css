@@ -1,7 +1,13 @@
 *{
   margin:0;
   padding:0;
-  box-sizing: border-box;
+  
+}
+body{
+  overflow-x:hidden;
+}
+p {
+  margin-top: 0;
 }
 .first-container{
   background: linear-gradient(to left,rgb(140, 136, 136)1%,rgba(255,255,255,0.2)),url('images/background.jpeg');
@@ -13,11 +19,89 @@
 .navbar-expand-lg .navbar-collapse {
   justify-content: flex-end;
 }
+.card{
+  padding: 27px 20px;
+  align-items: center;
+  background-color:white; 
+  position: relative;top: -40%;
+  border: 1px solid gray;
+}
 .third-container{
   background: linear-gradient(to left,rgb(223, 220, 220)1%,rgba(255,255,255,0.2)),url('images/bg2.jpeg');
   background-size: cover;
 }
+.third-container .col-md-12 .content{
+  padding: 50px 20px;
+  width: 80%;
+  margin-bottom: 20px;
+  background-color: #d4d2d2;
+}
+.mini-content{
+  padding: 50px 20px;
+  background-color: #d4d2d2;
+}
+
 .fourth-container .row .col-md-3{
   margin: 0;
   padding: 0;
 }
+.sixth-container{
+  background-color: #e1dddd;
+}
+
+.seventh-container{
+  padding: 100px 0;
+  background: linear-gradient(to left,rgb(94, 89, 89)1%,rgba(102, 94, 94, 0.2)),url('images/landscape.jpeg');
+  background-size: cover;
+}
+.seventh-container .container{
+  text-align: center;
+  border: 2px solid gray;
+  padding: 100px;
+}
+.eighth-container-form{
+  background-color:#ebf2f5;
+  padding: 100px 0;
+}
+.eighth-container-form .container #contact-info{
+  width: 30%;
+  padding: 50px 40px;
+  background: linear-gradient(#615884, #353642);
+  position: relative;
+}
+
+.eighth-container-form .container #contact-info .info-section{
+  padding: 10px 10px;
+}
+.eighth-container-form .container #contact-info .info-section i{
+  color:#e1dddd;
+}
+.eighth-container-form .container #contact-info .info-section strong{
+  color:white;
+}
+.eighth-container-form .container #contact-info .social-links{
+  color: white;
+  position: absolute;
+  bottom: 25px;
+}
+.eighth-container-form .container #contact-info .fa{
+  padding-right:25px;
+}
+.eighth-container-form .container .contact-form{
+  width: 70%;
+  padding: 90px 50px;
+  background-color:white;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.tenth-container{
+  background-color: #5c5756;
+  text-align: center;
+  padding: 80px 0;
+  color:white;
+}
+
+@media(max-width:500px){
+  
+}
+
